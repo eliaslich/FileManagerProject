@@ -117,7 +117,21 @@ def list_files():
     output = textbox(message, title, textString)
 
 
-print("testing")
+# function to find all instances of queried file and their locations
+
+
+def find_file():
+    fileList = filedialog.askdirectory()
+    sortFiles = sorted(os.listdir(fileList))
+
+
+# function to show locations as branches
+
+
+def createTree():
+    print("just filling space")
+
+
 # Creating the UI of our file manager
 
 root = Tk()
