@@ -117,6 +117,7 @@ def list_files():
     output = textbox(message, title, textString)
 
 
+print("testing")
 # Creating the UI of our file manager
 
 root = Tk()
